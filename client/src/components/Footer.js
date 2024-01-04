@@ -23,7 +23,7 @@ const Footer = () => {
                             </a>
                             <a
                                 className="btn btn-primary sm-btn fa-btn"
-                                href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https%3A%2F%2Fcarwashpetition.com%2F&display=popup&ref=plugin&src=share_button"
+                                href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https%3A%2F%2Fcarwashpetition.org%2F&display=popup&ref=plugin&src=share_button"
                                 data-bs-toggle="tooltip"
                                 data-bs-placement="top"
                                 title="Share this page on Facebook"
@@ -32,7 +32,7 @@ const Footer = () => {
                             </a>
                             <a
                                 className="btn btn-primary sm-btn ln-btn"
-                                href="https://www.linkedin.com/sharing/share-offsite/?url=carwashpetition.com"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=carwashpetition.org"
                                 data-bs-toggle="tooltip"
                                 data-bs-placement="top"
                                 title="Share this page on LinkedIn"
@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className="col-md-6 text-center align-items-center">
                         <div className="text-md-end align-items-md-end">
                             <img
-                                src="http://zachweb.site/apple-icon-180x180.png"
+                                src="https://zachweb.site/apple-icon-180x180.png"
                                 alt="John Z. DeGrey Logo"
                                 className="img-fluid mb-3 me-md-4"
                                 height={170}
