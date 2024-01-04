@@ -1,0 +1,37 @@
+body, html, #root {
+    background-color: #fff;
+    margin-top: 0 !important;
+}
+
+main {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 13px;
+}
+
+.sm-btn {
+    margin-right: 7px;
+    height: 48px;
+    width: 48px;
+    color: white;
+}
+
+.fa-btn {
+    background: #3B5998 !important;
+    border-color: #3B5998 !important;
+}
+
+.ln-btn {
+    background: #007bb5 !important;
+    border-color: #007bb5;
+}
+
+.sm-btn:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    padding-top: 3px;
+    font-size: 25px;
+}
