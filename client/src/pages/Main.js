@@ -35,7 +35,7 @@ const Main = () => {
                     homes, and our peace.
                 </p>
                 <img
-                    src="./evidence/DSC_1676.jpg"
+                    src="./evidence/DSC_1732_RS.jpg"
                     alt="TODO"
                     className="img-fluid rounded p3"
                     width={616}
@@ -45,7 +45,7 @@ const Main = () => {
 
             <div className="d-md-flex justify-content-md-evenly mt-5 align-items-md-center">
                 <img
-                    src="./evidence/DSC_1693.jpg"
+                    src="./evidence/DSC_1740_RS.jpg"
                     alt="TODO"
                     className="img-fluid rounded p3"
                     width={616}
@@ -64,7 +64,7 @@ const Main = () => {
                     Health Organization (WHO) states that prolonged exposure to noise levels can cause health problems.
                 </p>
                 <img
-                    src="./evidence/DSC_1698.jpg"
+                    src="./evidence/DSC_1698_RS.jpg"
                     alt="TODO"
                     className="img-fluid rounded p3"
                     width={616}
@@ -74,7 +74,7 @@ const Main = () => {
 
             <div className="d-md-flex justify-content-md-evenly mt-5 align-items-md-center">
                 <img
-                    src="./evidence/DSC_1712.jpg"
+                    src="./evidence/DSC_1712_RS.jpg"
                     alt="TODO"
                     className="img-fluid rounded p3"
                     width={616}
@@ -94,7 +94,7 @@ const Main = () => {
                     that is negatively impacting this historic neighborhood.
                 </p>
                 <img
-                    src="./evidence/DSC_1715.jpg"
+                    src="./evidence/DSC_1676_RS.jpg"
                     alt="TODO"
                     className="img-fluid rounded p3"
                     width={616}
@@ -104,7 +104,7 @@ const Main = () => {
 
             <div className="d-md-flex justify-content-md-evenly mt-5 align-items-md-center">
                 <img
-                    src="./evidence/DSC_1732.jpg"
+                    src="./evidence/DSC_1693_RS.jpg"
                     alt="TODO"
                     className="img-fluid rounded p3"
                     width={616}
@@ -117,19 +117,6 @@ const Main = () => {
                     <br /><br />
                     Join us in demanding respect for our community's history and tranquility - sign this petition today!
                 </p>
-            </div>
-
-            <div className="d-md-flex justify-content-md-evenly mt-5 align-items-md-center">
-                <p className="p-3">
-                    Lorem Ipsum
-                </p>
-                <img
-                    src="./evidence/DSC_1740.jpg"
-                    alt="TODO"
-                    className="img-fluid rounded p3"
-                    width={616}
-                    height={416}
-                />
             </div>
 
             <div className="d-flex justify-content-center mt-5">
