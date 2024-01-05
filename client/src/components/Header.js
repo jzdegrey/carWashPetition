@@ -29,7 +29,7 @@ const Header = () => {
                 className="text-center text-white"
                 style={{
                     backgroundImage: "url(" + "./flag_og.jpg" + ")",
-                    backgroundPosition: "40% 73%",
+                    backgroundPosition: "40% 0%",
                     backgroundRepeat: "no-repeat"
                 }}
             >
