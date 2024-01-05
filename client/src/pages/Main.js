@@ -1,3 +1,5 @@
+import Carousel from "../components/Carousel";
+
 const Main = () => {
     return (
         <div className="container">
@@ -25,6 +27,8 @@ const Main = () => {
                     SIGN THE PETITION
                 </a>
             </div>
+
+            {/*< Carousel />*/}
 
             <div className="d-md-flex justify-content-md-evenly mt-5 align-items-md-center">
                 <p className="p-3">

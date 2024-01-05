@@ -2,6 +2,7 @@ import './App.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
+import "@fontsource/poppins";
 import { Route, Routes } from "react-router-dom";
 import Main from "./pages/Main";
 import Footer from "./components/Footer";
