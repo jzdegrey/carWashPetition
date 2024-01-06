@@ -4,9 +4,9 @@ import scrapeWeb from "./WebScraper.js";
 const Router = express.Router();
 let runningWebScrape = {
     signatureCount: {
-        total: 266,
-        displayed: 266,
-        displayedLocalized: "266"
+        total: 276,
+        displayed: 276,
+        displayedLocalized: "276"
     },
     signatureGoal: {
         displayed: 500,
@@ -14,7 +14,7 @@ let runningWebScrape = {
     },
     signatureTarget: 234,
     signatureTargetLocalized: "234",
-    pulledDate: "2024-01-05T22:56:05-0700"
+    pulledDate: "2024-01-06T21:57:41+0000"
 };
 
 const isDateExpired = () => {
