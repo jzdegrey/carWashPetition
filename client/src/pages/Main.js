@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import LegalNotices from "../components/LegalNotices";
 import KaysvilleCouncil from "../components/KaysvilleCouncil";
+import CallToActions from "../components/CallToActions";
 import {min} from "@popperjs/core/lib/utils/math";
 
 axios.defaults.withCredentials = false;  // not using cookies
@@ -273,6 +274,7 @@ const Main = () => {
                 </p>
             </div>
 
+            {/*<CallToActions />*/}
             {/*<KaysvilleCouncil />*/}
 
             <div className="d-flex justify-content-center mt-5">
