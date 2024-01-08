@@ -28,7 +28,7 @@ const Footer = () => {
                                 data-bs-placement="top"
                                 title="Share this page on Facebook"
                             >
-                                <span className="fa fa-facebook"></span>
+                                <span className="fa fa-brands fa-facebook-f"></span>
                             </a>
                             <a
                                 className="btn btn-primary sm-btn ln-btn"
@@ -37,7 +37,7 @@ const Footer = () => {
                                 data-bs-placement="top"
                                 title="Share this page on LinkedIn"
                             >
-                                <span className="fa fa-linkedin"></span>
+                                <span className="fa fa-brands fa-linkedin-in"></span>
                             </a>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                                 height={170}
                                 width={70}
                             />
-                            <p className="me-md-4">Copyright 2024 - Car Wash Petition - All rights reserved</p>
+                            <p className="me-md-4">Copyright {new Date().getFullYear()} - Car Wash Petition - All rights reserved</p>
                         </div>
                     </div>
                 </div>

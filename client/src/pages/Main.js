@@ -274,12 +274,12 @@ const Main = () => {
                 </p>
             </div>
 
-            {/*<CallToActions />*/}
-            {/*<KaysvilleCouncil />*/}
+            <CallToActions />
+            <KaysvilleCouncil />
 
             <div className="d-flex justify-content-center mt-5">
                 <h2>
-                    Sign our petition over at <a
+                    Remember to sign our petition over at <a
                         className="text-decoration-none text-danger"
                         href="https://www.change.org/p/demand-kaysville-city-council-and-mister-car-wash-respect-historic-neighborhood">
                         Change.org
