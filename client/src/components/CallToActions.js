@@ -31,10 +31,10 @@ const CallToActions = () => {
         },
     ];
     return (
-        <div id="help-us" className="mt-5">
+        <div id="help-out" className="section">
             <h1>How can I help?</h1>
             <hr />
-            <p>We're glad to hear you want to help! Below we've compiled a list of simple steps you can take.</p>
+            <p>Below are some simple steps you can take.</p>
             <div>
                 <h3>Step 1</h3>
                 <div className="container">
@@ -94,7 +94,7 @@ const CallToActions = () => {
                 </div>
             </div>
 
-            <div id="engagement-events">
+            <div id="engagement-events" className="section">
                 <h2>Engagement Events</h2>
                 <p>There are currently no events planned. However, we encourage everyone to engage at each Kaysville
                 City Council meeting you're able to.</p>

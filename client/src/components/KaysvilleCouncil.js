@@ -1,3 +1,27 @@
+const CivilDiscourse = () => {
+    return (
+        <>
+            Please use the following points to effectively engage in civil discourse:
+            <ul>
+                <li>Introduce yourself and your relationship</li>
+                &nbsp;&nbsp;&nbsp;&nbsp;Make sure to let them know who you are, how long you've lived in
+                Kaysville, or other relationship if not a citizen.
+                <li>Use "I" statements</li>
+                &nbsp;&nbsp;&nbsp;&nbsp;Use statements like <span
+                className="text-success">"I am concerned..."</span> or <span
+                className="text-success">"I feel..."</span> instead of <span className="text-danger">"You are responsible for..."</span> or <span
+                className="text-danger">"You need to fix..."</span>
+                <li>Be detailed, but not too detailed</li>
+                &nbsp;&nbsp;&nbsp;&nbsp;Express why you are concerned, but don't give them a novel
+                to read. Providing too many details drowns out your main points
+                <li>Include a call to action</li>
+                &nbsp;&nbsp;&nbsp;&nbsp;Include what you want City Council to do. Call on them to hold Mister
+                Car Wash accountable and require them to make required changes.
+            </ul>
+        </>
+    );
+}
+
 const KaysvilleCouncil = () => {
     let cityCouncilMembers = [
         {
@@ -51,7 +75,7 @@ const KaysvilleCouncil = () => {
     ];
 
     return (
-        <div id="KaysvilleCouncil" className="mt-5">
+        <div id="kaysville-council" className="section">
             <h1>Engage with Kaysville City Council</h1>
             <hr/>
             <p>Let the city know your concerns! Reach out to members of city council via their details below.</p>
@@ -66,28 +90,14 @@ const KaysvilleCouncil = () => {
                     Important
                 </div>
                 <div className="card-body">
-                    <p>It is important to remember our goal is to work with City Council on a solution
+                    <p>
+                        It is important to remember our goal is to work with City Council on a solution
                         and <strong><em>NEVER</em></strong> harass or attack. They exist to listen and consider our
                         concerns and grievances. Attempting to harm in any way
                         does <strong><em>NOT</em></strong> benefit
-                        our cause and instead harms everyone involved.</p>
-                    Please use the following points to effectively engage in civil discourse:
-                    <ul>
-                        <li>Introduce yourself and your relationship</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Make sure to let them know who you are, how long you've lived in
-                        Kaysville, or other relationship if not a citizen.
-                        <li>Use "I" statements</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Use statements like <span
-                        className="text-success">"I am concerned..."</span> or <span
-                        className="text-success">"I feel..."</span> instead of <span className="text-danger">"You are responsible for..."</span> or <span
-                        className="text-danger">"You need to fix..."</span>
-                        <li>Be detailed, but not too detailed</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Express why you are concerned, but don't give them a novel
-                        to read. Providing too many details drowns out your main points
-                        <li>Include a call to action</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Include what you want City Council to do. Call on them to hold Mister
-                        Car Wash accountable and require them to make required changes.
-                    </ul>
+                        our cause and instead harms everyone involved.
+                    </p>
+                    {/*<CivilDiscourse />*/}
                 </div>
             </div>
 

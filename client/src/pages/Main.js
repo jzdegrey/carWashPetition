@@ -83,7 +83,7 @@ const Main = () => {
     }
 
     return (
-        <div className="container">
+        <div id="petition" className="container section">
             <div className="container p-md-5">
                 <h2>Sign our petition!</h2>
                 <div className="d-md-flex justify-content-md-evenly">
@@ -148,7 +148,7 @@ const Main = () => {
                                 className="text-start"
                                 style={{
                                     color: "green"
-                            }}
+                                }}
                             >
                                 <h2 className="mb-0">{changeScrape.signatures}</h2>
                                 <p className="mt-0">Signatures</p>
@@ -173,15 +173,15 @@ const Main = () => {
                 </div>
             </div>
 
-            <h1>Why this matters</h1>
-            <hr />
+            <h1 id="matters" className="section">Why this matters</h1>
+            <hr/>
             <p>The intrusion of these businesses into our neighborhood is progressively
                 diminishing property values while also giving rise to constant light and noise
                 disruptions. Continue below to read more and view for yourself of how big of a deal this is.</p>
 
             <div className="d-md-flex justify-content-md-evenly mt-5 align-items-md-center">
                 <p className="p-3">
-                Long-time residents of historic Kaysville, who have spent decades building their homes, are now
+                    Long-time residents of historic Kaysville, who have spent decades building their homes, are now
                     subjected to the incessant whine of vacuums and bright neon lights invading their homes and yards.
                     The recent construction of Mister Car Wash has not only reduced their property value but also
                     significantly impacted their quality of life. This is a plea for respect for our history, our
@@ -269,21 +269,23 @@ const Main = () => {
                     This isn't just about preserving property values; it's about maintaining quality of life for
                     residents who've invested years into making this neighborhood what it is today. We cannot allow
                     profit-driven agendas displace cherished historical appeal.
-                    <br /><br />
+                    <br/><br/>
                     Join us in demanding respect for our community's history and tranquility - sign this petition today!
                 </p>
             </div>
 
-            <CallToActions />
-            <KaysvilleCouncil />
+            <div className="mt-5"></div>
+            <CallToActions/>
+            <div className="mt-5"></div>
+            <KaysvilleCouncil/>
 
             <div className="d-flex justify-content-center mt-5">
                 <h2>
                     Remember to sign our petition over at <a
-                        className="text-decoration-none text-danger"
-                        href="https://www.change.org/p/demand-kaysville-city-council-and-mister-car-wash-respect-historic-neighborhood">
-                        Change.org
-                    </a>
+                    className="text-decoration-none text-danger"
+                    href="https://www.change.org/p/demand-kaysville-city-council-and-mister-car-wash-respect-historic-neighborhood">
+                    Change.org
+                </a>
                 </h2>
             </div>
             <div className="d-flex justify-content-center mt-1">

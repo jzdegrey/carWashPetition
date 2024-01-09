@@ -1,30 +1,9 @@
+import NavBar from "./NavBar";
+
 const Header = () => {
     return (
-        <header className="bg-white bg-gradient align-items-center text-black container-fluid mt-3 mb-3 p-0">
-            <div className="container">
-                <img
-                    src="./logo64.png"
-                    alt="Site logo"
-                    height={64}
-                    width={64}
-                    className="img-fluid me-3 rounded float-start"
-                />
-                <h2
-                    className="mb-0 pb-0"
-                    style={{
-                        fontFamily: "'Lemon'",
-                        fontWeight: 1000,
-                        color: "darkblue"
-                    }}
-                >CAR WASH</h2>
-                <h3
-                    className="text-muted mt-0 pt-0"
-                    style={{
-                        fontFamily: "'Lalezar'",
-                        color: "lightblue"
-                    }}
-                >petition</h3>
-            </div>
+        <header className="bg-white bg-gradient align-items-center text-black container-fluid mb-3 p-0">
+            <NavBar />
             <div
                 className="text-center text-white"
                 style={{

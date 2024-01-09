@@ -11,6 +11,14 @@ import Header from "./components/Header";
 function App() {
     return (
     <>
+        <div
+            style={{
+                height: "107px",
+                minHeight: "107px",
+                maxHeight: "107px",
+
+            }}
+            id="navBuffer"></div>
         <Header />
         <main className="container my-3 bg-white bg-gradient">
             <Routes>
